@@ -9,12 +9,12 @@ Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.3-2.tar.gz
-Requires:         R-graphics R-grid R-lattice R-modeltools 
-Requires:         R-methods R-stats R-stats4 
-Requires:         R-ellipse R-clue R-cluster R-seriation R-multicore R-snow 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-graphics R-grid R-lattice R-modeltools
-BuildRequires:    R-methods R-stats R-stats4 
-BuildRequires:    R-ellipse R-clue R-cluster R-seriation R-multicore R-snow 
+Requires:         R-graphics R-grid R-lattice R-modeltools R-methods
+Requires:         R-stats R-stats4 
+Requires:         R-ellipse R-clue R-cluster R-seriation R-multicore R-snow
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-graphics
+BuildRequires:    R-grid R-lattice R-modeltools R-methods R-stats R-stats4
+BuildRequires:    R-ellipse R-clue R-cluster R-seriation R-multicore R-snow
 
 %description
 The main function kcca implements a general framework for k-centroids
