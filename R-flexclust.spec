@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.3_2
-Release:          1
+Release:          2
 Summary:          Flexible Cluster Algorithms
 Group:            Sciences/Mathematics
 License:          GPL-2
