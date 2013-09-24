@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.3_2
-Release:          2
+Version:          1.3.4
+Release:          1
 Summary:          Flexible Cluster Algorithms
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.3-2.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/flexclust_1.3-4.tar.gz
 Requires:         R-graphics R-grid R-lattice R-modeltools R-methods
 Requires:         R-stats R-stats4 
 Requires:         R-ellipse R-clue R-cluster R-seriation R-multicore R-snow
@@ -52,3 +52,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
